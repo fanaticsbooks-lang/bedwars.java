@@ -7,12 +7,28 @@
 </head>
 <body>
     <h1>это сайт создан для информации по трюком в майнкрфафт</h1>
-    <img src="" alt="https://static.wikia.nocookie.net/minecraft_ru_gamepedia/images/6/63/%D0%9E%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D0%B0%D1%8F_%D1%88%D0%B5%D1%80%D1%81%D1%82%D1%8C_JE3_BE3.png/revision/latest/scale-to-width-down/160?cb=20200528060145">
+   
+    <button class="image-button">
+  <img src="icon.png" alt="Описание действия">
+  <span>Текст кнопки</span>
+</button>
 
 
     <style>
 
         body { background-color: gray; }
+
+        .image-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.image-button img {
+  width: 20px;
+  height: 20px;
+}
 
     </style>
 </body>
